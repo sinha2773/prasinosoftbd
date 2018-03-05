@@ -1,0 +1,820 @@
+/*-------------------------------------------------------
+[Table of contents]
+
+1. Header
+	+ logo
+	+ top navigation
+	+ search
+	
+2. Content
+	+ feature sections
+	+ page title
+	+ parallax backgrounds
+	+ video backgrounds
+	
+3. Sidebar
+	+ site search
+	+ tabs
+	+ portfolio widgets
+	+ advertisements
+
+3. Typography
+	+ lists
+	+ buttons
+	+ styled boxes
+	+ dropcaps
+	+ highlight colors
+	+ tables
+	+ pricing tables
+	+ framed boxes
+	+ pagination
+	
+4. Footer
+	+ copyrights
+	+ google map
+	
+
+/*----------------------------------------------------
+	SITE MAIN STRUCTURE
+------------------------------------------------------*/
+
+.site_wrapper {
+	width: 100%;
+	margin: 0 auto 0 auto;
+}
+.container_full {
+	width: 100%;
+	float: left;
+	margin: auto;
+}
+.container {
+	width: 1170px;
+	margin: auto;
+}
+.content_fullwidth {
+	float: left;
+	width: 100%;
+	padding: 90px 0px 90px 0px;
+}
+.content_fullwidth.less {
+	padding: 0px 0px 90px 0px;
+}
+.content_fullwidth.less2 {
+	padding: 75px 0px 90px 0px;
+}
+.content_fullwidth.less3 {
+	padding: 75px 0px 30px 0px;
+}
+.content_left {
+	float: left;
+	width: 71%;
+	padding: 0px 0px 0px 0px;
+}
+.left_sidebar {
+	float: left;
+	width: 25%;
+	padding: 0px 0px 0px 0px;
+}
+.content_right {
+	float: right;
+	width: 71%;
+	padding: 0px 0px 0px 0px;
+}
+.right_sidebar {
+	float: right;
+	width: 25%;
+	padding: 0px 0px 0px 0px;
+}
+.content_halfsite {
+	float: left;
+	width: 47.5%;
+	margin-right: 5%;
+	padding: 0px 0px 0px 0px;
+}
+.content_halfsite.last {
+	margin-right: 0;
+}
+
+/*-------------------*/
+/*     columns    */
+/*-------------------*/
+
+.one_half, .one_third, .one_fourth, .two_third, .three_fourth, .one_fifth, .onecol_forty, .onecol_sixty, .onecol_thirtyfive {
+	position: relative;
+	margin-right: 4%;
+	float: left;
+}
+.one_full {
+	width: 100%;
+}
+.one_half {
+	width: 48%;
+}
+.one_third {
+	width: 30.650%;
+}
+.one_fourth {
+	width: 22%;
+}
+.one_fifth {
+	width: 16.800%;
+}
+.two_third {
+	width: 65.350%;
+}
+.three_fourth {
+	width: 74%;
+}
+.onecol_forty {
+	width: 40%;
+}
+.onecol_sixty {
+	width: 56%;
+}
+.onecol_thirtyfive {
+	width: 35%;
+}
+
+/*-----------------------------------*/
+/*  Less Space Bitween Columns     */
+/*-----------------------------------*/
+
+.one_half_less, .one_third_less, .one_fourth_less, .two_third_less, .three_fourth_less, .one_fifth_less, .onecol_forty_less, .onecol_sixty_less, .onecol_thirtyfive_less {
+	position: relative;
+	margin-right: 2%;
+	float: left;
+}
+.one_full_less {
+	width: 100%;
+}
+.one_half_less {
+	width: 49%;
+}
+.one_third_less {
+	width: 32%;
+}
+.one_fourth_less {
+	width: 23.500%;
+}
+.one_fifth_less {
+	width: 18.400%;
+}
+.two_third_less {
+	width: 66%;
+}
+.three_fourth_less {
+	width: 74.500%;
+}
+.onecol_forty_less {
+	width: 40%;
+}
+.onecol_sixty_less {
+	width: 58%;
+}
+.onecol_thirtyfive_less {
+	width: 36.250%;
+}
+.last {
+	margin-right: 0 !important;
+}
+
+/*------------------------*/
+/*        Header     */
+/*------------------------*/
+
+/* Logo */
+#logo {
+	float: left;
+	display: block;
+	width: 100%;
+	min-height: 52px;
+	margin-top: 12px;
+	position: relative;
+	text-indent: -999em;
+	background: url(../images/dental-logo1.png) no-repeat left top;
+}
+.logo {
+	float: left;
+	width: 25%;
+	margin-top: 5px;
+}
+.menu_main {
+	float: left;
+	width: 75%;
+	z-index: 9999;
+}
+
+
+
+/* top navigations */
+.top_nav {
+	float: left;
+	width: 100%;
+	background: #272727;
+	border-bottom: 1px solid #e3e3e3;
+	color: #fff;
+	font-size: 13px;
+}
+.top_nav .left {
+	float: left;
+	width: 30%;
+	padding: 12px 0px;
+}
+.top_nav .left i {
+	color: #999;
+}
+.top_nav .left a {
+	color: #f3f3f3;
+	margin-right: 25px;
+}
+.top_nav .left a:hover {
+	color: #727272;
+	transition: all 0.3s ease;
+}
+.top_nav .right {
+	float: left;
+	width: 70%;
+	text-align: right;
+}
+.top_nav ul.topsocial {
+	float: right;
+	padding: 0px;
+	margin: 0px 10px 0px 0px;
+	padding: 12px 0px;
+}
+.top_nav .topsocial li {
+	float: left;
+	padding: 0px;
+	margin: 0px 16px 0px 0px;
+}
+.top_nav .topsocial li a {
+	float: left;
+	color: #f3f3f3;
+	font-size: 13px;
+	border-radius: 100%;
+	text-align: center;
+	vertical-align: middle;
+	transition: all 0.3s ease;
+	margin-right: 0px;
+}
+.top_nav .topsocial li a:hover {
+	color: #727272;
+}
+
+.tpbut {
+	float: right;
+	color: #fff;
+	margin-left: 0px;
+	padding: 12px 18px;
+	transition: all 0.3s ease;
+}
+
+.tpbut:hover {
+	color: #727272;
+} 
+.slidermar {
+	margin-top: 85px;
+}
+
+
+/*----------------------------------------------------
+   FEATURE SECTIONS
+------------------------------------------------------*/
+
+
+.linebg_1 {
+	
+	margin:0 auto;
+	background-image:url(../images/dental-title-hline.png);
+	background-repeat:no-repeat;
+	background-position:center top;
+	height:50px;
+}
+.linebg_2 {
+	width: 50px;
+	height: 1px;
+	background-color: #f3f3f3;
+	margin:0 auto;
+}
+.linebg_3 {
+	width: 50px;
+	height: 4px;
+	border-radius:10px;
+	background-color: #fff;
+	margin-bottom:10px;
+}
+.linebg_4 {
+	width: 50px;
+	height: 2px;
+	background-color: #fff;
+	margin:0 auto;
+}
+.linebg_5 {
+	width: 50px;
+	height: 4px;
+	border-radius:10px;
+	background-color: #272727;
+	margin-bottom:10px;
+}
+
+/*---------------------------*/
+/*    features_section 1     */
+/*---------------------------*/
+
+.feature_section1 {
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding:90px 0px;
+}
+.feature_section1 h3{
+	font-weight:normal;
+}
+.feature_section1 i {
+	width: 94px;
+	height: 94px;
+	color: #2cb1e9;
+	font-size: 35px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 94px;
+	margin-bottom: 30px;
+	background-image: url(../images/dental-circle01.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	transition: all 0.3s ease;
+}
+.feature_section1 .one_fourth:hover i {
+	background-image: url(../images/dental-circle02.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	color: #fff;
+	transition: all 0.3s ease;
+}
+.feature_section1 .one_fourth:hover h3,.active h3 {
+	color: #2cb1e9;
+	transition: all 0.3s ease;
+}
+.feature_section1 .one_fourth.active i {
+	background-image: url(../images/dental-circle02.png);
+}
+
+
+/*---------------------------*/
+/*    feature_section 2       */
+/*---------------------------*/
+
+.feature_section2 {
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding:90px 0px;
+	background-image:url(../images/dental-background-image01.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+.feature_section2 .limage {
+	float: left;
+	margin-top: 60px;
+}
+.feature_section2 p {
+	color:#fff;
+}
+.feature_section2 h3 {
+	color:#fff;
+}
+.feature_section2 .rightsection {
+	float: right;
+	width: 100%;
+	text-align: left;
+	padding-bottom: 30px;
+	background: url(../images/dental-site-image02.png) no-repeat 34px top;
+}
+.feature_section2 .rightsection ul {
+	float: left;
+	width: 100%;
+	padding: 0px;
+	margin: 50px 0px 0px 0px;
+	
+}
+.feature_section2 .rightsection ul.two {
+	margin-top: 65px;
+}
+.feature_section2 .rightsection ul.three {
+	margin-top: 65px;
+}
+.feature_section2 .rightsection li {
+	padding: 0px;
+	margin: 0px;
+}
+.feature_section2 .rightsection li.icon {
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin-right: 30px;
+}
+.feature_section2 .rightsection li.icon i {
+	color: #fff;
+	font-size: 35px;
+	width: 80px;
+	height: 80px;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 80px;
+	background-color: #272727;
+	border-radius: 100%;
+	transition: all 0.3s ease;
+}
+.feature_section2 .rightsection li.text {
+	float: left;
+	width: 79%;
+}
+.feature_section2 .rightsection ul:hover i {
+	background-color: #2cb1e9;
+}
+.feature_section2 .rightsection ul.active i {
+	background-color: #2cb1e9;
+}
+
+/*---------------------------*/
+/*  feature_section 3                   */
+/*---------------------------*/
+
+.feature_section3 {
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding:90px 0px;
+}
+.feature_section3.lessmb {
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding: 70px 0px 0px 0px;
+}
+.feature_section3 i {
+	float: left;
+	color: #2cb1e9;
+	font-size: 30px;
+	width: 50px;
+	height: 70px;
+	margin-right: 20px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 70px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #2cb1e9;
+	border-left-color: #2cb1e9;
+	transition: all 0.3s ease;
+}
+.feature_section3 i:hover {
+	color: #fff;
+	background-color: #2cb1e9;
+}
+.feature_section3 i.active {
+	color: #fff;
+	background-color: #2cb1e9;
+}
+.feature_section3 h5 {
+	font-weight:normal;
+	margin-bottom: 5px;
+	color: #000;
+}
+.feature_section3 .one_third {
+	text-align: left;
+}
+
+
+/*---------------------------*/
+/*    features_section 4     */
+/*---------------------------*/
+
+.feature_section4 {
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding:90px 0px;
+	background-color: #2cb1e9;
+}
+.feature_section4 h1 {
+	margin-bottom:15px;
+}
+.feature_section4 h3 {
+	font-weight:normal;
+	margin-bottom:15px;
+}
+
+
+/*---------------------------*/
+/*  feature_section 5                   */
+/*---------------------------*/
+.feature_section5 {
+	float: left;
+	width: 100%;
+	padding:90px 0px;
+	background-image:url(../images/dental-background-image02.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-attachment:fixed;
+}
+
+.feature_section5 .right {
+	float: right;
+	width: 80%;
+	padding:50px 50px;
+	background-color:#fff;
+}
+.feature_section5 .right h2 {
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.feature_section5 .right h2 em {
+	font-size: 16px;
+	color: #999;
+	font-style: normal;
+	text-transform: none;
+	font-weight: normal;
+}
+.feature_section5 .right b {
+	font-size: 14px;
+	font-weight: normal;
+}
+.feature_section5 ul.section {
+	float: left;
+	width: 45.8%;
+	padding: 0 4% 22px 0;
+	margin: 25px 0 0 0;
+	background: #fff;
+	border-right: 1px solid #e3e3e3;
+	border-bottom: 1px solid #e3e3e3;
+}
+.feature_section5 ul.section.two {
+	padding: 0 0 22px 4%;
+	border-right: none;
+}
+.feature_section5 ul.section.three {
+	padding: 25px 4% 0 0;
+	border-right: 1px solid #e3e3e3;
+	border-bottom: none;
+	margin: 0px;
+}
+.feature_section5 ul.section.four {
+	padding: 25px 0 0 4%;
+	border-right: none;
+	border-bottom: none;
+	margin: 0px;
+}
+.feature_section5 .section li {
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	width: 70%;
+}
+.feature_section5 .section li a {
+	font-size: 12px;
+	color: #b9b9b9;
+	margin-top: 8px;
+}
+.feature_section5 .section li a:hover {
+	color: #999;
+}
+.feature_section5 .section li.left {
+	float: left;
+	width: 90px;
+	color: #2cb1e9;
+	font-size: 52px;
+}
+.feature_section5 .section li strong {
+	font-size: 18px;
+	color: #1889c1;
+	font-weight: normal;
+	display: block;
+	margin-bottom: 10px;
+}
+
+
+/*---------------------------*/
+/*  feature_section 6                   */
+/*---------------------------*/
+
+.feature_section6 {
+	float: left;
+	width: 100%;
+	padding: 70px 0px 40px 0px;
+}
+.feature_section6.lessmt {
+	padding: 0px 0px 40px 0px;
+}
+.feature_section6 h2 {
+	font-weight:normal;
+	text-transform:none;
+}
+ul.fun_facts {
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+.fun_facts li {
+	float: left;
+	width: 27%;
+	padding: 13px 0px;
+	margin: 0 5% 20px 0;
+	text-align: center;
+	border: 1px solid #e9e9e9;
+}
+.fun_facts li strong {
+	font-size: 22px;
+	color: #272727;
+	font-weight: normal;
+	display: block;
+	margin-bottom: 5px;
+}
+.fun_facts li i {
+	color: #999;
+	font-size: 13px;
+	font-style: normal;
+}
+
+
+/*---------------------------*/
+/*    feature_section6       */
+/*---------------------------*/
+.feature_section7 {
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding:90px 0px 0px 0px;
+
+}
+.feature_section7.two {
+	background-position: center;
+	position: relative;
+	min-height: 500px;
+}
+.feature_section7 .left {
+	float: left;
+	width: 100%;
+	margin-top: 50px;
+	text-align: right;
+}
+.feature_section7 .center {
+	float: left;
+	width: 100%;
+	min-height: 400px;
+	background-image: url(../images/dental-site-image03.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.feature_section7 .right {
+	float: left;
+	width: 100%;
+	margin-top: 50px;
+	text-align: left;
+}
+.feature_section7 .left ul {
+	float: right;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+.feature_section7 .left li {
+	float: right;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	color: #454545;
+}
+.feature_section7 .left h3 {
+	float: right;
+	font-weight: 300;
+	margin-bottom: 8px;
+	text-transform: uppercase;
+}
+.feature_section7 .left li p {
+	text-align: right;
+}
+.feature_section7 .right ul {
+	float: left;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+.feature_section7 .right li {
+	float: left;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	color: #454545;
+}
+.feature_section7 .right h3 {
+	float: left;
+	font-weight: 300;
+	margin-bottom: 8px;
+	text-transform: uppercase;
+}
+.feature_section7 .right li p {
+	text-align: left;
+}
+.feature_section7 h4 {
+	font-weight:normal;
+	text-transform:uppercase;
+}
+
+
+/*------------------*/
+/*   punchtext    */
+/*------------------*/
+.punchtext {
+	float: left;
+	width: 100%;
+	padding: 60px 0px 50px 0px;
+	background-attachment: scroll;
+	background-image: url(../images/dental-background-image03.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.punchtext h3 {
+	float: left;
+	margin-top: 10px;
+	color: #FFFFFF;
+	font-family: Roboto;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bold;
+}
+.punchtext a {
+	float: right;
+	color: #fff;
+	font-size: 16px;
+	padding: 16px 40px;
+	background-color: #1da4dd;
+	border-radius: 5px;
+	-webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out
+}
+.punchtext a:hover {
+	background-color: #454545;
+}
+
+/*---------------------------*/
+/*  footer                   */
+/*---------------------------*/
+
+.footer{
+	float:left;
+	width: 100%;
+	text-align: center;
+	padding:50px 0px 0px 0px ;
+	background-color:#2c2c2c;
+}
+.subfooter{
+	float:left;
+	width: 100%;
+	text-align: center;
+	background-color:#212121;
+	padding:10px 0px 35px 0px;
+	margin-top:40px;
+}
+.social_links a i {
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	background-color:#727272;
+	border-radius: 100%;
+	line-height: 30px;
+	vertical-align: middle;
+	color: #fff;
+	margin: 30px 4px 0 2px;
+	transition: all 0.3s ease;
+	font-size: 14px;
+}
+.social_links a i:hover {
+	color: #fff;
+	background-color: #0e6ca5;
+}
+.social_links a i.active {
+	color: #fff;
+	background-color: #0e6ca5;
+}
+
+/* scroll up */
+.scrollup {
+	width: 40px;
+	height: 40px;
+	opacity: 1;
+	position: fixed;
+	bottom: 22px;
+	right: 20px;
+	display: none;
+	color:#fff;
+	text-indent: -9999px;
+	background: #ccc url(../images/scroll-top-arrow.png) no-repeat 15px 16px;
+	z-index: 999;
+}
